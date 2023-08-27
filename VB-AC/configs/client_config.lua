@@ -12,7 +12,7 @@
 --]]
 
 VB_AC = {}
-VB_AC.usingBuild2189 = false -- Are you using FiveM Build 2189 or superior? Enable this.
+VB_AC.usingBuild2189 = true -- Are you using FiveM Build 2189 or superior? Enable this.
 
 VB_AC.UseESX = true -- Do you use ESX? Set this in true.
 VB_AC.ESXTrigger = "esx:getSharedObject" -- If you've changed the esx:getSharedObject trigger for another one, change it. Otherwise you'll get a lot of errors.
