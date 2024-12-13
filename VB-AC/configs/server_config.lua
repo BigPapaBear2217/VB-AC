@@ -17,7 +17,6 @@ VB_AC.ScreenshotPlayers = true
 
 -- ESX OPTIONS
 VB_AC.UseESX = true -- ¿Do you use ESX? Activate this option.
-VB_AC.ESXTrigger = "esx:getSharedObject" -- Put your ESX Object Trigger Right Here
 VB_AC.MechanicJobName = 'mechanic'
 VB_AC.MaxTransferAmount = 50000 -- ADJUST THIS
 

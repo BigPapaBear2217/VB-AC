@@ -1,107 +1,124 @@
-# VB-AC v4.0: FiveM Anticheat by VisiBait#0712
+# **VB-AC v4.0: FiveM Anticheat by VisiBait#0712**
 
-## READ README.TXT BEFORE EXECUTING THE SCRIPT IN YOUR SERVER! OTHERWISE THE ANTICHEAT WON'T WORK!
+**⚠️ IMPORTANT:**  
+Please read the `README.TXT` before running this script on your server! The anticheat will not work correctly if installation instructions are not followed.
 
-### VB-AC [v4.0]:
-[NEW] This version includes a "On Screen Menu Detection" IA, that analyses player's screen and looks for menus every 30secs.
+---
 
-[NEW - UPDATE] This is the most advanced of VB-AC, and includes exclusive features (Anti Aimbot, Anti TriggerBot, Anti Rape Players, Anti Taze Players, Anti Blacklisted Anims...)  
+## **VB-AC v4.0 Updates**
 
-[NEW] Admin Menu (Using MenuV): https://github.com/ThymonA/menuv
+### **What's New?**
+- **[On-Screen Menu Detection AI]:**  
+  Automatically scans players' screens every 30 seconds to detect mod menus.
+- **Enhanced Security Features:**  
+  Anti-Aimbot, Anti-TriggerBot, Anti-Rape Players, Anti-Taze Players, Anti-Blacklisted Animations, and more.
+- **Admin Menu Integration:**  
+  Uses [MenuV](https://github.com/ThymonA/menuv) for a robust admin interface.
+- **Anti-Injection System:**  
+  Setup via server console using `vbacinstall`.
+  
+**Acknowledgments:** Special thanks to [@ProjectEntity](https://github.com/Project-Entity) (@Xios_Bombay) for code inspiration from the PE Admin Menu.
 
-[NEW] Anti Injection System (Type vbacinstall in server console)
+---
 
-Thanks @ProjectEntity (@Xios_Bombay): Some code inspirations from his admin menu (https://github.com/Project-Entity/pe-adminmenu)
+## **Features**
 
-## Features
+- **Player Protection:**
+  - Anti-GodMode
+  - Anti-Spectate
+  - Anti-SpeedHacks
+  - Anti-Explosion Damage
+  - Anti-Super Jump
+  - Anti-Infinite Ammo
+  - Anti-Suicide via Mod Menus
+  - Anti-Rape Players
+  - Anti-Taze Players
+  - Anti-Blacklisted Animations
 
-- Anti GodMode
-- Anti Spectate
-- Anti SpeedHacks
-- Anti Explosion Damage
-- Anti Blacklisted Weapons
-- Anti VDM (Toggleable)
-- Anti Weapon Damage Modifier
-- Anti Thermal Vision
-- Anti Night Vision
-- Anti Resource Injection
-- Anti Resource Start/Stop
-- Anti Command Injection
-- Anti License Clears
-- Anti LUA Injections
-- Anti Vehicle Weapons
-- Anti Keyboard Injections
-- Anti CheatEngine 
-- Anti Noclip
-- Anti Player Blips
-- Anti Infinite Ammo
-- Anti Ped Change
-- Anti Vehicle Modifiers (Rainbow car, speed mods etc)
-- Anti Super Jump
-- Anti FreeCam (Fallout or similars)
-- Anti Menyoo
-- Anti Ped Revives
-- Anti Suicide using Mod Menús
-- Anti Give Armor
-- Anti Vehicle Spawn
-- Anti Blacklisted Explosions
-- Anti Mass Explosions
-- Anti Blacklisted Peds
-- Anti Mass Ped Spawn
-- Anti Blacklisted Vehicles
-- Anti Mass Vehicle Spawn
-- Anti Blacklisted Props
-- Anti Mass Prop Spawn
-- Anti Particles
-- Anti Blocked Words
-- Anti Blacklisted Triggers
-- Anti VPN
-- Anti Aimbot
-- Anti TriggerBot
-- Anti Rape Players
-- Anti Taze Players
-- Anti Blacklisted Anims
-- On Screen Menu Detection
+- **Weapon Restrictions:**
+  - Anti-Blacklisted Weapons
+  - Anti-Weapon Damage Modifier
+  - Anti-Vehicle Weapons
+  - Anti-Give Armor
 
+- **Vehicle Restrictions:**
+  - Anti-VDM (Toggleable)
+  - Anti-Vehicle Spawn
+  - Anti-Vehicle Modifiers (Rainbow Cars, Speed Mods, etc.)
+  - Anti-Blacklisted Vehicles
+  - Anti-Mass Vehicle Spawn
 
+- **Entity & Prop Restrictions:**
+  - Anti-Blacklisted Explosions
+  - Anti-Mass Explosions
+  - Anti-Blacklisted Peds
+  - Anti-Mass Ped Spawn
+  - Anti-Blacklisted Props
+  - Anti-Mass Prop Spawn
 
-Preview: https://streamable.com/flbdxc
+- **Exploits & Cheating Prevention:**
+  - Anti-Resource Injection
+  - Anti-Resource Start/Stop
+  - Anti-Command Injection
+  - Anti-LUA Injections
+  - Anti-License Clears
+  - Anti-Noclip
+  - Anti-Player Blips
+  - Anti-CheatEngine
+  - Anti-FreeCam (Fallout or similar)
 
-Optimized: ~0.02ms
+- **Vision Restrictions:**
+  - Anti-Thermal Vision
+  - Anti-Night Vision
 
-Attention: this script has been developed exclusively for non-commercial use, this implies that this project cannot be sold under any circumstances.
+- **Advanced Detection:**
+  - On-Screen Menu Detection
+  - Anti-Aimbot
+  - Anti-TriggerBot
 
-### Coded using:
+---
 
-* [LUA](https://www.lua.org/)
-* [HTML](https://html.spec.whatwg.org/)
-* [JS](https://developer.mozilla.org/es/docs/Web/JavaScript)
+## **Performance**
+- Optimized for **~0.02ms runtime** for minimal server impact.
 
-### Requirements:
+---
 
-* [ESX] You don't need to have ESX, but there are some things that require it, you can disable them and the anticheat will still work properly.
+## **Preview**
+Check out the script in action: [Video Preview](https://streamable.com/flbdxc)
 
-### Installation
+---
 
-**I recommend reading the README as SQL is needed to make the script work!**
+## **Installation**
 
-## Contributions
+### **Requirements:**
+- **[ESX]:** While ESX is optional, some features require it. If not available, the anticheat will still work by disabling ESX-dependent features.
 
-Any contribution to the project is ** highly appreciated **.
+### **Setup:**
+Follow the detailed instructions in `README.TXT`, as **SQL setup is required** for the script to function.
 
-**Steps to do a PR:**
-1. Fork the script
-2. Modify the script
-3. Upload the files and confirm your changes.
-4. Make a Pull Request
+---
 
-## License
+## **Contributions**
 
-You are not allowed to sell this script, or claim it's yours. Feel free to open a pull request if you find any bugs or you want to improve something.
- 
-## Contact
+Contributions to improve VB-AC are **highly appreciated**!  
+**Steps to Submit a Pull Request (PR):**
+1. Fork the repository.
+2. Make your modifications.
+3. Upload and commit your changes.
+4. Create a Pull Request.
 
-VisiBait - [@visibait](https://twitter.com/visibait) - grafoplays@gmail.com
+---
 
+## **License**
 
-©VisiBait 2021
+- You may **NOT** sell this script or claim it as your own.
+- Open a Pull Request if you find bugs or have feature suggestions.
+
+---
+
+## **Contact**
+
+- **VisiBait** - [Twitter](https://twitter.com/visibait)  
+- Email: **grafoplays@gmail.com**
+
+© **VisiBait 2021**  
