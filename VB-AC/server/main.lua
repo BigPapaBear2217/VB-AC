@@ -10,7 +10,7 @@ local canbanforentityspawn = false
 -- MAIN EVENTS
 -- 
 if VB_AC.UseESX then
-    TriggerEvent(VB_AC.ESXTrigger, function(obj) ESX = obj end)
+    ESX = exports['es_extended']:getSharedObject()
     ESX.RegisterServerCallback('fx4XO610W8ZMIBaz1iTU', function(source, callback)
         local _src = source
         local _char = ESX.GetPlayerFromId(_src)
