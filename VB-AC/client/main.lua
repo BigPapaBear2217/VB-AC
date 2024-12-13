@@ -6,7 +6,7 @@ local resources
 local model1 = nil
 local model2 = nil
 
-ESX = nil
+ESX = exports['es_extended']:getSharedObject()
 
 Citizen.CreateThread(function()
     if VB_AC.UseESX then
