@@ -11,8 +11,7 @@ ESX = exports['es_extended']:getSharedObject()
 Citizen.CreateThread(function()
     if VB_AC.UseESX then
         while ESX == nil do
-            TriggerEvent(VB_AC.ESXTrigger, function(obj) ESX = obj end)
-            Citizen.Wait(0)
+            print("Couldnt find ESX Legacy")
         end
     end
 end)
